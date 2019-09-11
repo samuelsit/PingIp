@@ -1,7 +1,6 @@
 <?php
     $bdd = new PDO('mysql:host=localhost;dbname=scanIp', 'root', 'root');
 
-
     if (isset($_POST['id-supp']))
         $id = $_POST['id-supp'];
 
@@ -14,6 +13,5 @@ $reponse->closeCursor();
 if ($bdd) {
     $bdd = NULL;
 }
-header('Location: scan.php');
-
+header('Location: display.php');
 ?>
