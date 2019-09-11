@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<title>Eye-Tech | Scan IP</title>
+		<title>ScanIp</title>
 		<link rel="shortcut icon" href="images/ico.png"/>
 		<meta name="robots" content="noindex">
 		<link rel="stylesheet" type="text/css" href="css/input.css" media="screen" />

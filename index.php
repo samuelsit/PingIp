@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="robots" content="noindex">
-    <title>Eye-Tech | Scan IP</title>
+    <title>ScanIp</title>
     <link rel="shortcut icon" href="images/ico.png"/>
     <link rel="stylesheet" type="text/css" href="css/log.css" media="screen" />
   </head>
