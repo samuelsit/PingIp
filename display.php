@@ -10,13 +10,6 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	</head>
 	<body class="bg-light">
-		<script type="text/javascript">
-			var x = document.referrer;
-			if ((x != "https://www.xavsit.fr/") && (x != "https://www.xavsit.fr/display.php") && (x != "https://www.xavsit.fr/search.php") && (x != "https://www.xavsit.fr/index.php")) {
-				alert("Identifiez-vous !");
-				document.location.href="https://www.xavsit.fr/";
-			}
-		</script>
 		<?php
 			session_start();
 			if (!isset($_SESSION['pseudo']) || !isset($_SESSION['pass'])) {
